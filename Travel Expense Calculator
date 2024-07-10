@@ -1,0 +1,27 @@
+#Travel Expense Calculator
+
+#the employee is collecting the information from a person about the travel days and showing total expenses
+
+username = input("Your Name ")
+print("Hello " + username)
+
+days = int(input("no of travel days: "))
+
+#consider a hotel stay rent is 100 pounds per day
+stay_rent = days * 100
+print("total hotel rent : " + str(stay_rent))
+
+#consider a food cost is 50 pounds per day
+food = 50 * days
+print("total food cost : " + str(food))
+
+miles = float(input("Cost of transportation"))
+
+#Contribution to car fuel cost (43p per total mile travelled)
+contribution = miles * 0.43
+print("contribution to car fuel cost :" + str(contribution))
+
+#Total Travel Expense
+
+total_cost = stay_rent + food + miles + contribution
+print("Total Travel Expense £ " + str(total_cost))
