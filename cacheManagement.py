@@ -1,4 +1,4 @@
-#Name : Ashutosh Anil Deshpande Student ID : 201758974
+#Name : Ashutosh Anil Deshpande 
 
 #Initializing Global Variables to store cache,requests and frequency
 cache = []
